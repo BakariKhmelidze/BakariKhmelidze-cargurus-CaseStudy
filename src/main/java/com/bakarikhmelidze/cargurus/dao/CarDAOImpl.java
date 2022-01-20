@@ -2,7 +2,6 @@ package com.bakarikhmelidze.cargurus.dao;
 
 
 import java.util.List;
-import java.util.Set;
 
 import javax.persistence.NoResultException;
 import javax.persistence.TypedQuery;

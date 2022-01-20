@@ -1,8 +1,7 @@
 package com.bakarikhmelidze.cargurus.controller;
 
-import java.util.Collection;
+
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
@@ -19,7 +18,6 @@ import com.bakarikhmelidze.cargurus.entity.Car;
 import com.bakarikhmelidze.cargurus.entity.Make;
 import com.bakarikhmelidze.cargurus.entity.Helper;
 import com.bakarikhmelidze.cargurus.service.carService;
-import com.bakarikhmelidze.cargurus.service.carServiceImpl;
 
 @Controller
 @RequestMapping("/admin")

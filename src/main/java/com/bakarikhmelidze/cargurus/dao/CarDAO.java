@@ -2,7 +2,7 @@ package com.bakarikhmelidze.cargurus.dao;
 
 import java.util.List;
 
-import com.bakarikhmelidze.cargurus.entity.Car;
+
 import com.bakarikhmelidze.cargurus.entity.Make;
 
 

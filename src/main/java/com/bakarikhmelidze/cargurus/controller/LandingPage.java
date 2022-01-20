@@ -7,9 +7,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.bakarikhmelidze.cargurus.dao.MakeDAO;
+
 import com.bakarikhmelidze.cargurus.entity.Make;
-import com.bakarikhmelidze.cargurus.service.MakeServiceImpl;
 import com.bakarikhmelidze.cargurus.service.MakeService;
 
 

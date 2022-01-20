@@ -1,10 +1,7 @@
 package com.bakarikhmelidze.cargurus.entity;
 
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.List;
+
 import java.util.Set;
 
 import javax.persistence.CascadeType;
@@ -16,7 +13,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
-import javax.persistence.Transient;
+
 
 
 
@@ -37,7 +34,7 @@ public class Make {
 	
 	
 	@OneToMany(targetEntity=Model.class, cascade = {CascadeType.ALL}, fetch = FetchType.EAGER)
-	private Set Modellist;
+	private Set<Model> Modellist;
 	
 	public Make() {
 		
@@ -67,7 +64,7 @@ public class Make {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public Set getModellist(){
+	public Set<Model> getModellist(){
         return Modellist;
     }
 	
