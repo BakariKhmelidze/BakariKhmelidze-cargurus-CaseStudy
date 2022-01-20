@@ -115,8 +115,7 @@ public class CarDAOImpl implements CarDAO {
 		Model m = (Model) theMake.getModellist().iterator().next();
 		
 		String hsql =  "update Car c set c.img = :img, c.year = :year, c.price = :price, c.mi = :mi, c.transmission = :transmission, c.ex_color = :ex_color, c.int_color = :int_color, c.vin = :vin, c.engine = :engine, c.drivetrain = :drivetrain  where c.id = :id";
-		Query theQuery3 =
-				currentSession.createQuery(hsql);
+		Query theQuery3 = currentSession.createQuery(hsql);
 		
 		Car c = m.getCarlist().iterator().next();
 		theQuery3.setParameter("id", c.getId());
