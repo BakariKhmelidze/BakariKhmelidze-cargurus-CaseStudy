@@ -1,4 +1,5 @@
 package com.bakarikhmelidze.cargurus.test;
+import org.springframework.test.context.web.WebAppConfiguration;
 
 import static org.junit.Assert.assertTrue;
 
@@ -21,7 +22,8 @@ import com.bakarikhmelidze.cargurus.entity.Model;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 
-@ContextConfiguration(locations = "classpath:spring-mvc-crud-demo-servlet.xml")
+@ContextConfiguration(classes = TestConfig.class)
+@WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
 public class TestCarDAO {
 
