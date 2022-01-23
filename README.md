@@ -17,7 +17,7 @@
 ## User Stories
 * As a User of the website I want to filter cars by model and make of car.
 * As a User of the website I want to see all details associated with the car.  
-* As an Admin of the website I want to add, update and delete cars to the website. 
+* As an Admin of the website I want to add, update and delete cars from the website. 
 ## Data Flow
 ![data flow](https://user-images.githubusercontent.com/64437630/150653649-99a3d069-d281-4a79-8283-d16897cb96ca.png)
 
